@@ -1,0 +1,110 @@
+[00:00:04.080] Server  LOG     ✓ Ready in 2.5s
+[00:00:19.459] Server  WARN    ⚠ The "images.domains" configuration is deprecated. Please use "images.remotePatterns" configuration instead.
+[00:00:19.561] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:19.951] Browser WARN    Image with src "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&q=80&w=800" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:00:20.655] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1556910103-1c02745a30bf?auto=format&fit=crop&q=80&w=400" 404
+[00:00:59.472] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1616035041045-8a2113396c21?auto=format&fit=crop&q=80&w=600" 404
+[00:00:59.493] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1579619627727-4a7b31495c2f?auto=format&fit=crop&q=80&w=600" 404
+[00:17:26.027] Server  LOG     ✓ Compiled in 1254ms
+[00:19:19.855] Server  LOG     ✓ Compiled in 130ms
+[00:22:33.924] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true stroke stroke true stroke
+[00:22:35.929] Browser ERROR   ./app/components/Support.tsx:46:17
+Parsing ecmascript source code failed
+  44 |                 viewBox="0 0 16 16"
+  45 |                 stroke=
+> 46 |                 fill="none"
+     |                 ^^^^
+  47 |                 className="w-6 h-6"
+  48 |                 aria-hidden="true"
+  49 |               >
+
+Expected '</', got 'fill'
+
+Import trace:
+  Server Component:
+    ./app/components/Support.tsx
+    ./app/page.tsx
+[00:22:37.701] Server  LOG     ✓ Compiled in 113ms
+[00:24:21.262] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1616035041045-8a2113396c21?auto=format&fit=crop&q=80&w=600" 404
+[00:24:21.438] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1579619627727-4a7b31495c2f?auto=format&fit=crop&q=80&w=600" 404
+[00:24:38.254] Browser ERROR   ./app/components/Support.tsx:46:17
+Parsing ecmascript source code failed
+  44 |                 viewBox="0 0 16 16"
+  45 |                 stroke=
+> 46 |                 fill="none"
+     |                 ^^^^
+  47 |                 className="w-6 h-6"
+  48 |                 aria-hidden="true"
+  49 |               >
+
+Expected '</', got 'fill'
+
+Import trace:
+  Server Component:
+    ./app/components/Support.tsx
+    ./app/page.tsx
+[00:30:03.370] Server  LOG     ✓ Compiled in 99ms
+[00:30:08.382] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1616035041045-8a2113396c21?auto=format&fit=crop&q=80&w=600" 404
+[00:30:08.438] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1579619627727-4a7b31495c2f?auto=format&fit=crop&q=80&w=600" 404
+[00:30:13.752] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1579619627727-4a7b31495c2f?auto=format&fit=crop&q=80&w=600" 404
+[00:30:13.764] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1616035041045-8a2113396c21?auto=format&fit=crop&q=80&w=600" 404
+[00:43:44.777] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1579619627727-4a7b31495c2f?auto=format&fit=crop&q=80&w=600" 404
+[00:43:44.798] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1616035041045-8a2113396c21?auto=format&fit=crop&q=80&w=600" 404
+[00:44:54.276] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1616035041045-8a2113396c21?auto=format&fit=crop&q=80&w=600" 404
+[00:44:54.602] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1579619627727-4a7b31495c2f?auto=format&fit=crop&q=80&w=600" 404
+[00:44:57.899] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1579619627727-4a7b31495c2f?auto=format&fit=crop&q=80&w=600" 404
+[00:44:57.902] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1616035041045-8a2113396c21?auto=format&fit=crop&q=80&w=600" 404
+[01:01:07.038] Server  LOG     ✓ Compiled in 149ms
+[01:23:47.514] Server  LOG     ✓ Compiled in 954ms
+[01:33:50.379] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1556910103-1c02745a30bf?auto=format&fit=crop&q=80&w=400" 404
+[01:35:41.322] Server  LOG     ✓ Compiled in 180ms
+[01:35:41.921] Browser ERROR   uncaughtError: Error: Invalid src prop (https://unsplash.com/id/foto/orang-mengiris-sayuran-uB7q7aipU2o) on `next/image`, hostname "unsplash.com" is not configured under images in your `next.config.js`
+See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
+[01:36:17.413] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:36:17.481] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1556910103-1c02745a30bf?auto=format&fit=crop&q=80&w=400" 404
+[01:36:18.161] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1616035041045-8a2113396c21?auto=format&fit=crop&q=80&w=600" 404
+[01:36:18.564] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1579619627727-4a7b31495c2f?auto=format&fit=crop&q=80&w=600" 404
+[01:36:26.930] Browser ERROR   uncaughtError: Error: Invalid src prop (https://unsplash.com/id/foto/orang-mengiris-sayuran-uB7q7aipU2o) on `next/image`, hostname "unsplash.com" is not configured under images in your `next.config.js`
+See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
+[01:36:30.224] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1556910103-1c02745a30bf?auto=format&fit=crop&q=80&w=400" 404
+[01:36:30.228] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1616035041045-8a2113396c21?auto=format&fit=crop&q=80&w=600" 404
+[01:36:30.642] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:36:30.726] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1579619627727-4a7b31495c2f?auto=format&fit=crop&q=80&w=600" 404
+[01:36:33.251] Browser WARN    Image with src "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&q=80&w=800" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[01:38:53.260] Server  LOG     ✓ Compiled in 138ms
+[01:40:53.916] Browser ERROR   uncaughtError: Error: Invalid src prop (https://www.astronauts.id/blog/wp-content/uploads/2023/03/Resep-Rendang-Daging-Sapi-Untuk-Lebaran-Gurih-dan-Nikmat.jpg) on `next/image`, hostname "www.astronauts.id" is not configured under images in your `next.config.js`
+See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
+[01:41:21.492] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:41:22.386] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1616035041045-8a2113396c21?auto=format&fit=crop&q=80&w=600" 404
+[01:41:22.403] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1579619627727-4a7b31495c2f?auto=format&fit=crop&q=80&w=600" 404
+[01:41:22.925] Browser ERROR   uncaughtError: Error: Invalid src prop (https://www.astronauts.id/blog/wp-content/uploads/2023/03/Resep-Rendang-Daging-Sapi-Untuk-Lebaran-Gurih-dan-Nikmat.jpg) on `next/image`, hostname "www.astronauts.id" is not configured under images in your `next.config.js`
+See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
+[01:41:36.918] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1616035041045-8a2113396c21?auto=format&fit=crop&q=80&w=600" 404
+[01:41:37.276] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:41:37.333] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1579619627727-4a7b31495c2f?auto=format&fit=crop&q=80&w=600" 404
+[01:41:37.627] Browser WARN    Image with src "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&q=80&w=800" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[01:45:44.934] Browser ERROR   uncaughtError: Error: Invalid src prop (https://plus.unsplash.com/premium_photo-1723539626666-34de64a5b1a4?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) on `next/image`, hostname "plus.unsplash.com" is not configured under images in your `next.config.js`
+See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
+[01:46:03.675] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:46:03.849] Server  LOG     ✓ Compiled in 221ms
+[01:46:04.906] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1579619627727-4a7b31495c2f?auto=format&fit=crop&q=80&w=600" 404
+[01:46:04.970] Browser ERROR   Can't perform a React state update on a component that hasn't mounted yet. This indicates that you have a side-effect in your render function that asynchronously tries to update the component. Move this work to useEffect instead.
+[01:46:04.970] Browser ERROR   uncaughtError: Error: Invalid src prop (https://plus.unsplash.com/premium_photo-1723539626666-34de64a5b1a4?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) on `next/image`, hostname "plus.unsplash.com" is not configured under images in your `next.config.js`
+See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
+[01:46:07.505] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:46:07.617] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1579619627727-4a7b31495c2f?auto=format&fit=crop&q=80&w=600" 404
+[01:46:16.940] Browser ERROR   uncaughtError: Error: Invalid src prop (https://plus.unsplash.com/premium_photo-1726848153077-4b1494efaa9e?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) on `next/image`, hostname "plus.unsplash.com" is not configured under images in your `next.config.js`
+See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
+[01:46:19.100] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:46:19.283] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1579619627727-4a7b31495c2f?auto=format&fit=crop&q=80&w=600" 404
+[01:46:32.477] Browser WARN    Image with src "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&q=80&w=800" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[02:05:01.913] Server  LOG     ✓ Compiled in 479ms
+[02:17:10.664] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:19:04.996] Server  LOG     ✓ Compiled in 184ms
+[02:37:57.420] Server  LOG     ✓ Compiled in 609ms

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar { 
+  width: 8px; 
+}
+::-webkit-scrollbar-track { 
+  background: #fbfaf9; 
+}
+::-webkit-scrollbar-thumb { 
+  background: #39E079; 
+  border-radius: 4px; 
+}
+::-webkit-scrollbar-thumb:hover { 
+  background: #2db863; 
+}
+
+details > summary { 
+  list-style: none; 
+}
+details > summary::-webkit-details-marker { 
+  display: none; 
+}
+details[open] summary ~ * { 
+  animation: sweep .3s ease-in-out; 
+}
+@keyframes sweep { 
+  0% {opacity: 0; transform: translateY(-10px)} 
+  100% {opacity: 1; transform: translateY(0)} 
+}
