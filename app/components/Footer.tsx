@@ -61,19 +61,19 @@ const Footer = () => {
           <div data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">
             <h4 className="font-bold text-text-main mb-4">Mitra Kami</h4>
             <p className="text-text-muted text-sm mb-4">Didukung oleh mitra terpercaya kami.</p>
-            <div className="flex flex-col items-center gap-4">
+            <div className="flex flex-col items-start gap-4">
               {/* Sponsor 1 */}
-              <div className="flex items-center justify-center w-32 h-16">
+              <div className="flex items-start justify-start w-32 h-16">
                 <img src="/dekat-lokal.png" alt="DekatLokal" className="max-h-full max-w-full object-contain" />
               </div>
 
               {/* Sponsor 2 */}
-              <div className="flex items-center justify-center w-32 h-16">
+              <div className="flex items-start justify-start w-32 h-16">
                 <img src="/rumah-bumn.png" alt="Rumah BUMN" className="max-h-full max-w-full object-contain" />
               </div>
 
               {/* Sponsor 3 */}
-              <div className="flex items-center justify-center w-32 h-16">
+              <div className="flex items-start justify-start w-32 h-16">
                 <img src="/bank-bri.png" alt="Bank BRI" className="max-h-full max-w-full object-contain" />
               </div>
             </div>
@@ -82,10 +82,7 @@ const Footer = () => {
 
         <div className="border-t border-[#f4f3f1] pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-center">
           <p className="text-text-muted text-xs">
-            ©2026 Kira Kira Michi. Hak Cipta Dilindungi | Didukung oleh DekatLokal
-          </p>
-          <p className="text-text-muted text-xs flex items-center gap-1 justify-center">
-            Dibuat dengan <span className="material-symbols-outlined text-xs text-red-500 fill-current">favorite</span> di Indonesia
+            &copy;2026 Kira Kira Michi. All rights reserved | Powered by DekatLokal
           </p>
         </div>
       </div>
