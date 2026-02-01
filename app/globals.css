@@ -11,11 +11,11 @@
   background: #fbfaf9; 
 }
 ::-webkit-scrollbar-thumb { 
-  background: #39E079; 
+  background: #FFCC00; /* KKM Yellow */
   border-radius: 4px; 
 }
 ::-webkit-scrollbar-thumb:hover { 
-  background: #2db863; 
+  background: #e6b800; /* Darker shade of KKM Yellow */
 }
 
 details > summary { 

@@ -5,7 +5,8 @@ import Features from './components/Features';
 import Story from './components/Story';
 import Menu from './components/Menu';
 import Reviews from './components/Reviews';
-import Location from './components/Location';
+import FAQ from './components/FAQ';
+import Process from './components/Process';
 import CTA from './components/CTA';
 import Footer from './components/Footer';
 
@@ -19,7 +20,8 @@ export default function Home() {
       <Story />
       <Menu />
       <Reviews />
-      <Location />
+      <FAQ />
+      <Process />
       <CTA />
       <Footer />
     </div>

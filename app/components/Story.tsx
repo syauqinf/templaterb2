@@ -8,44 +8,50 @@ const Story = () => {
           
           {/* Kolom Teks */}
           <div className="flex-1 flex flex-col gap-6">
-            <span className="text-primary font-bold tracking-widest uppercase text-xs">Cerita Kami</span>
+            <span className="text-kkm-yellow font-bold tracking-widest uppercase text-xs">Cerita Kami</span>
             <h2 className="text-3xl md:text-4xl font-black text-text-main leading-tight">
-              Lebih dari sekadar makanan, ini adalah perjalanan kuliner.
+              Lebih dari sekadar produk, ini adalah hasil dari proses kreatif dan cerita di baliknya.
             </h2>
             <p className="text-text-muted text-base leading-relaxed">
-              Rasa Nusantara dimulai dengan hasrat sederhana: menghadirkan cita rasa masakan rumahan Indonesia yang otentik ke meja modern. Kami percaya bahwa makanan adalah bahasa universal yang menghubungkan orang-orang.
+              “Kira Kira Michi” dibentuk pada tahun 2023. Bermula dari keinginan sepasang suami istri tanpa pekerjaan tetap yang baru saja memulai kehidupan berumah tangga, bersama bayi mereka yang baru lahir. Berangkat dari hobi desain, menggambar, serta keinginan untuk memberikan pengalaman agar setiap orang dapat memiliki merchandise impian yang selama ini mereka idamkan.
             </p>
             <p className="text-text-muted text-base leading-relaxed">
-              Setiap rempah digiling dengan tangan, setiap saus dimasak perlahan selama berjam-jam, dan setiap bahan dipilih dengan tujuan. Kami berdedikasi untuk melestarikan warisan kaya masakan lokal kami.
+              Produksi produk kami bermula dari ide desain yang kemudian diolah secara digital melalui proses desain grafis hingga menjadi file yang dapat diproses oleh mesin-mesin produksi kami. Setelah produk dasar selesai, produk tersebut diberikan aksesoris sesuai dengan tema, lalu dikemas menjadi produk yang siap untuk dijual.
             </p>
           </div>
 
           {/* Kolom Gambar - Fixed Layout */}
           <div className="flex-1 w-full">
             <div className="grid grid-cols-2 gap-4 items-start">
+              
               {/* Gambar Kiri - Dengan Offset Atas */}
-              <div className="mt-8">
-                <Image 
-                  src="https://images.unsplash.com/photo-1551218808-94e220e084d2?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                  alt="Cooking ingredients"
-                  width={400}
-                  height={500}
-                  className="w-full rounded-2xl shadow-lg object-cover aspect-[4/5]"
-                  priority
-                />
+              <div className="mt-8 relative">
+                <div className="absolute inset-0 bg-kkm-yellow/20 blur-xl rounded-full -z-10"></div>
+                <div className="relative w-full rounded-2xl shadow-lg overflow-hidden aspect-[4/5]">
+                  <Image 
+                    src="/kirastory1.PNG"
+                    alt="Kira Kira Michi Story 1"
+                    fill
+                    sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw"
+                    className="object-cover"
+                  />
+                </div>
               </div>
               
               {/* Gambar Kanan */}
-              <div>
-                <Image 
-                  src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80&w=400"
-                  alt="Food preparation"
-                  width={400}
-                  height={500}
-                  className="w-full rounded-2xl shadow-lg object-cover aspect-[4/5]"
-                  priority
-                />
+              <div className="relative">
+                <div className="absolute inset-0 bg-kkm-yellow/20 blur-xl rounded-full -z-10"></div>
+                <div className="relative w-full rounded-2xl shadow-lg overflow-hidden aspect-[4/5]">
+                  <Image 
+                    src="/kirastory2.PNG"
+                    alt="Kira Kira Michi Story 2"
+                    fill
+                    sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw"
+                    className="object-cover"
+                  />
+                </div>
               </div>
+
             </div>
           </div>
 

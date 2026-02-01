@@ -41,13 +41,14 @@ var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$e
 ;
 ;
 ;
+;
 const metadata = {
-    title: 'Rasa Nusantara - Kuliner Lokal Otentik & Katering Terbaik',
-    description: 'Nikmati masakan rumahan Indonesia yang otentik, 100% Halal dengan bahan lokal pilihan. Melayani pesan antar dan katering di Jakarta. Didukung oleh DekatLokal.',
-    keywords: 'kuliner nusantara, katering jakarta, nasi goreng kampung, rendang sapi, makanan halal, dekatlokal',
+    title: 'Kira Kira Michi',
+    description: 'Tempat terbaik untuk custom merchandise favoritmu, dengan kualitas premium dan desain eksklusif. Didukung oleh DekatLokal.',
+    keywords: 'custom merchandise, kkm, dekatlokal, produk kreatif, desain eksklusif',
     authors: [
         {
-            name: 'Rasa Nusantara'
+            name: 'Kira Kira Michi'
         }
     ],
     icons: {
@@ -63,12 +64,12 @@ function RootLayout({ children }) {
             children: children
         }, void 0, false, {
             fileName: "[project]/app/layout.tsx",
-            lineNumber: 29,
+            lineNumber: 31,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/app/layout.tsx",
-        lineNumber: 28,
+        lineNumber: 30,
         columnNumber: 5
     }, this);
 }
