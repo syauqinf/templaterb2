@@ -61,7 +61,7 @@ const Menu = () => {
             </div>
             <div>
               <h3 className="text-2xl font-bold text-text-main">Flash Pre-Order</h3>
-              <p className="text-text-muted">Tiba dalam 2–5 Minggu • Disesuaikan sepenuhnya dengan preferensimu</p>
+              <p className="text-text-muted">Pengerjaan dalam 2–5 Hari • Disesuaikan sepenuhnya dengan preferensimu</p>
             </div>
           </div>
           
